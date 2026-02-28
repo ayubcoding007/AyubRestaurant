@@ -71,7 +71,7 @@ const Orders = () => {
                   {item?.address}
                 </p>
                 <p className="text-gray-600 hidden md:block">
-                  ${item?.totalAmount}
+                  ₹{item?.totalAmount}
                 </p>
                 <p className="text-gray-600 hidden md:block">
                   {item.paymentMethod}
