@@ -1,5 +1,7 @@
 AyubRestaurant:-
-![alt text](image.png)
+
+<img width="2838" height="1418" alt="image" src="https://github.com/user-attachments/assets/ee869f57-f744-4105-9430-485d17aa681f" />
+
 
 The frontend of AyubRestaurant is built using React.js and custom CSS to create a clean, simple, and user-friendly restaurant web interface. It allows customers to explore food categories, browse menus, place orders, and book tables easily. The design focuses on simplicity and smooth navigation so that users can interact with the system without confusion.
 
