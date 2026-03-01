@@ -1,16 +1,87 @@
-# React + Vite
+AyubRestaurant:-
+![alt text](image.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The frontend of AyubRestaurant is built using React.js and custom CSS to create a clean, simple, and user-friendly restaurant web interface. It allows customers to explore food categories, browse menus, place orders, and book tables easily. The design focuses on simplicity and smooth navigation so that users can interact with the system without confusion.
 
-Currently, two official plugins are available:
+This frontend also includes a dedicated Admin Panel that allows administrators to manage categories, menu items, orders, and bookings efficiently. The project demonstrates practical React development skills including routing, state management, API integration, authentication handling, and role-based UI rendering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Technologies Used:-
 
-## React Compiler
+Vite+React.js
+TailwindCSS
+React Router DOM
+Axios
+Context API / State Management
+JWT Authentication (Cookie-based integration with backend)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+User Side Features:-
 
-## Expanding the ESLint configuration
+Home Page Sections-
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Explore Our Categories
+Our Menu
+Book Table
+Contact Section
+Customer Reviews (Hardcoded)
+
+Authentication-
+
+User Registration
+User Login
+Secure authentication using JWT cookies
+
+Order System-
+
+Add to Cart
+View Cart
+Remove from Cart
+Place Order
+My Orders Page
+
+Booking System-
+
+Book Table
+View My Bookings
+
+Admin Panel Features:-
+The Admin Panel is accessible only to authorized admin users.
+
+Category Management-
+Add Category
+Delete Category
+View All Categories
+
+Menu Management-
+
+Add Menu Items
+Upload Food Images
+View All Menu Items
+Delete Menu Items
+
+Order Management-
+
+View All Orders
+Manage Order Status
+
+Booking Management-
+
+View All Bookings
+Manage Booking Details
+
+API Integration:-
+The frontend connects with the backend REST APIs using Axios.
+
+Authentication requests
+Cart operations
+Order creation
+Booking requests
+Admin CRUD operations
+
+Getting Started:-
+
+Install Dependencies-
+npm install
+
+Run the Project-
+npm start
+
